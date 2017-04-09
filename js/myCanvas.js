@@ -36,7 +36,8 @@ function num(max, min){
 
 //绘制原点
 function drawCircle(cxt, x, y, r, moveX, moveY){
-    var circle = new Circle(x, y, r, moveX, moveY);
+    // var circle = new Circle(x, y, r, moveX, moveY);
+    var circle = {x:x, y:y, r:r, moveX:moveX, moveY:moveY};
     cxt.beginPath();
     cxt.arc(circle.x, circle.y, circle.r, 0, 2*Math.PI)
     cxt.closePath();
@@ -46,7 +47,8 @@ function drawCircle(cxt, x, y, r, moveX, moveY){
 
 //绘制线条
 function drawLine(cxt, x, y, _x, _y, o) {
-    var line = new Line(x, y, _x, _y, o);
+    // var line = new Line(x, y, _x, _y, o);
+    var line = {beginX:x, beginY:y, closeX:_x, closeY:_y, o:o};
     cxt.beginPath()
     cxt.strokeStyle = 'rgba(0,0,0,'+ o +')'
     cxt.moveTo(line.beginX, line.beginY)

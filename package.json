@@ -1,0 +1,12 @@
+{
+  "name": "canvas-zhihu",
+  "version": "0.0.1",
+  "author": "CanvasFunny",
+  "description": "ZhiHu Animations By Canvas",
+  "license": "MIT",
+  "engine": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
