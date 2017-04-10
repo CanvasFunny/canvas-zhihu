@@ -10,7 +10,7 @@ const fs = require('fs');
 const browserify = require('browserify');
 
 browserify({
-    entry: path.join(__dirname, '../index.js')
+    entries: [path.join(__dirname, '../index.js')]
 })
 .bundle()
-.pipe(fs.createWriteStream(path.join(__dirname, '../bin/canvas-zhihu.js')));
+.pipe(fs.createWriteStream(path.join(__dirname, '../dist/canvas-zhihu.js')));

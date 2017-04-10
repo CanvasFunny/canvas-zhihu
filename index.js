@@ -5,4 +5,4 @@
  */
 'use strict';
 
-window.CanvasZH = require('../lib/canvas_zh.js');
+window.CanvasZH = require('./lib/canvas_zh.js');

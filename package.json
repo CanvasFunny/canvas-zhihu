@@ -1,5 +1,5 @@
 {
-  "name": "canvas-zhihu",
+  "name": "canvas-zh",
   "version": "0.0.1",
   "author": "CanvasFunny",
   "description": "ZhiHu Animations By Canvas",
@@ -7,6 +7,7 @@
   "engine": {
     "node": ">=4.0.0"
   },
+  "main": "./lib/canvas_zh.js",
   "dependencies": {},
   "devDependencies": {
     "browserify": "^13.1.1"
