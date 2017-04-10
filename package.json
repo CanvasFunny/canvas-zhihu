@@ -8,5 +8,7 @@
     "node": ">=4.0.0"
   },
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "browserify": "^13.1.1"
+  }
 }
